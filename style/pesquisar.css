@@ -1,0 +1,43 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)100%) ,url('/IMAGENS/login.jpg');
+}
+
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: black;
+}
+
+button{
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    width: 210px;
+    border-radius:10px;
+    color: white;
+    font-size: 15px;
+    cursor:pointer
+}
+
+button:hover{
+    background-color: deepskyblue;
+}
+
+.resultado{
+    background-color: white;
+    padding-left: 20px;
+    margin-top: 10px;
+    border: white 5px solid;
+    color: white;
+    height: 350px;
+}

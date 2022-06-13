@@ -1,0 +1,35 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)100%) ,url('/IMAGENS/login.jpg');
+}
+.titulo{
+    
+    border-radius: 35px;
+    text-align: center;
+}.pesquisa{
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    text-align: center;
+    margin-left:25%;
+    padding: 30px;
+    border-radius:25px ;
+    color: #fff;
+    width: 500px;
+}
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+button{
+    background-color: dodgerblue;
+    padding: 10px;
+    margin-top: 5px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 10px;
+    cursor:pointer
+}
